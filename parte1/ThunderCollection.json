@@ -1,0 +1,71 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "project-collections",
+    "dateExported": "2023-11-15T21:00:53.823Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fd33f696-7279-40e7-9d8e-305b1aed158a",
+            "colId": "814780f4-27ce-4e1d-acc9-beb152ea4488",
+            "containerId": "",
+            "name": "GET-ALL",
+            "url": "https://1b8sxqhyy2.execute-api.us-east-1.amazonaws.com/dev/feedback/all",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-15T20:58:37.812Z",
+            "modified": "2023-11-15T20:59:38.814Z",
+            "headers": [
+                {
+                    "name": "X-API-Key",
+                    "value": "zRRrQIaXYX6d0K8u8v3ux9XRRIeL4HJT1sPjco5b"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "031c781c-d660-415c-b852-55b10b7cff39",
+            "colId": "814780f4-27ce-4e1d-acc9-beb152ea4488",
+            "containerId": "",
+            "name": "GET-ONE",
+            "url": "https://1b8sxqhyy2.execute-api.us-east-1.amazonaws.com/dev/feedback/1",
+            "method": "GET",
+            "sortNum": 12500,
+            "created": "2023-11-15T20:59:58.463Z",
+            "modified": "2023-11-15T21:00:12.843Z",
+            "headers": [
+                {
+                    "name": "X-API-Key",
+                    "value": "zRRrQIaXYX6d0K8u8v3ux9XRRIeL4HJT1sPjco5b"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c3c4808b-34bd-4d52-85c0-53b229905579",
+            "colId": "814780f4-27ce-4e1d-acc9-beb152ea4488",
+            "containerId": "",
+            "name": "POST",
+            "url": "https://1b8sxqhyy2.execute-api.us-east-1.amazonaws.com/dev/feedback",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2023-11-15T20:59:51.954Z",
+            "modified": "2023-11-15T21:00:44.390Z",
+            "headers": [
+                {
+                    "name": "X-API-Key",
+                    "value": "zRRrQIaXYX6d0K8u8v3ux9XRRIeL4HJT1sPjco5b"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"classificacao\": 5,\n\"comentario\": \"Muito bom\",\n\"nome\": \"produto\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
